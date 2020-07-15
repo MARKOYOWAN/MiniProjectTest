@@ -1,0 +1,129 @@
+/******************Header*****************/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(253, 251, 251);
+  }
+  
+  li {
+    float:right
+  }
+  
+  li a {
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 14px;
+    float:right;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  /*
+  li img {
+      margin-top: 10px;
+      height: 20px;
+  }
+  */
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    text-decoration : underline;
+  }
+
+  /******************Fin header*****************/
+
+  /******************Body*****************/
+.MonBody {
+  margin-top: 120px;
+  margin-left: 330px;
+}
+
+.MonBody #MonInput input {
+  transition: width 0.4s ease-in-out;
+  width: 600px;
+  height: 50px;
+  margin-top: 100px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  padding: 12px;
+  margin: 8px 0;
+  margin-top: 30px;
+}
+
+.MonBody #MonImage img {
+  width: 250px;
+  height: 90px;
+  margin-left: 180px;
+}
+
+.MonBody #MonBoutton button {
+  margin-left: 120px;
+  background:  transparent;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline: none;
+  font-family: Arial, sans-serif;
+}
+
+.MonBody #MonText p { 
+  font-size: 13px;
+  margin-left: 175px;
+  margin-top: 40px;
+}
+
+.MonBody #MonText a:hover  { 
+  text-decoration : underline;
+  cursor: pointer;
+}
+
+.MonBody #MonText a  { 
+ color: rgb(55, 55, 214);
+}
+  /******************Fin body*****************/
+
+
+   /******************Footer*****************/
+.MonFooter #MonTexte {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border: 1px;
+  background-color: rgb(243, 236, 236);
+  color: rgb(59, 56, 56);
+}
+
+.MonFooter #MonTexte p{ 
+  margin-left: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.MonTextNavid ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(253, 251, 251);
+}
+
+.MonTextNav li a { 
+  color: rgb(8, 8, 8);
+  text-align: center;
+  padding: 14px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+#test {
+  float: left;
+  margin-left: 26px;
+  padding: 0;
+}
+
+
+
+
+
+
+    /******************Fin footer*****************/
